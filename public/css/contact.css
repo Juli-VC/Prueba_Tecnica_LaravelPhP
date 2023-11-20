@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.contactContainer{
+    background-color:#F2F2F2;
+}
+.contactContainer h2 {
+    text-align: center;       
+}
+
+.contactFrame .contactPhoto{
+    background-image: url("/frontPage.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.companyData {
+    height: 75%;
+    width: 60%;
+    background-color:rgba(0, 0, 0, 0.429) ;
+    padding: 5%;
+}
+.companyData i {
+    color: #198754;
+    font-size: 20px;
+}
+.companyData h4{
+    color: black;
+    
+}
+.companyData p, .companyData a{
+    color: white;
+}
+.contactFrame .contactFormf{  
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   
+}
+.contactFormf .inner{
+    background-color: #FFFFFF;
+    padding: 5%;
+    width: 70%;
+    height: 75%;
+
+}
+.contactFormf button {
+    font-weight: bold !important;
+}
